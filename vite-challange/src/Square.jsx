@@ -11,7 +11,8 @@ const Square = ({ colorValue, hexValue, isDarkText }) => {
           <p>{hexValue ? hexValue : null}</p>
       </section>
   )
-}
+} 
+
 
 Square.defaultProps = {
   colorValue: "Empty Color Value"
