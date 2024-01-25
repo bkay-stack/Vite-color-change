@@ -16,7 +16,7 @@ const Input = ({
                     setColorValue(e.target.value);
                     setHexValue(colorNames(e.target.value));
                 }}
-            />
+            /> 
             <button
                 type="button"
                 onClick={() => setIsDarkText(!isDarkText)}
